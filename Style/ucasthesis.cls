@@ -298,6 +298,7 @@
     \begin{center}
         \linespread{1.6}
         \bfseries
+        \zihao{-4}
 
         \makebox[3.0em][s]{\ucas@label@ch@classid} \ulenhance{\ulextend[22.9em]{\zihao{-4}\ucas@value@ch@classid}} \hfill{} \ucas@label@ch@confidential \ulenhance{\ulextend[6em]{\zihao{-4}\ucas@value@ch@confidential}}
 
@@ -317,11 +318,13 @@
 
         \def\arraystretch{1.5}
         % \linespread{1.5}
-        {\zihao{2}\bfseries\sffamily \linespread{1.5}  \ulenhance[1.5pt] {\ucas@value@ch@title}}
+        % {\zihao{2}\bfseries\sffamily \linespread{1.5}  \ulenhance[1.5pt] {\ucas@value@ch@title}}
+        {\zihao{2}\bfseries \linespread{1.5}  \ulenhance[1.5pt] {\ucas@value@ch@title}}
 
         \vspace*{\stretch{2}}
 
-        {\zihao{3}\bfseries\sffamily \ulenhance[1.5pt]{\ucas@value@ch@author}}
+        % {\zihao{3}\bfseries\sffamily \ulenhance[1.5pt]{\ucas@value@ch@author}}
+        {\zihao{3}\bfseries \ulenhance[1.5pt]{\ucas@value@ch@author}}
 
         \vspace*{\stretch{2}}
 
@@ -646,26 +649,30 @@
 %- chapter
 \ctexset {
     chapter = {
-        format = \linespread{1.0}\zihao{4}\bfseries\sffamily\centering,
+        format = \linespread{1.0}\zihao{3}\bfseries\sffamily\centering,
         nameformat = {},
         titleformat = {},
         % number = \arabic{chapter},
         number = \chinese{chapter},
         numberformat = \rmfamily,
         aftername = \quad,
-        beforeskip = {7pt},
-        afterskip = {18pt},
+        % beforeskip = {7pt},
+        % afterskip = {18pt},
+        beforeskip = {1.35pt},
+        afterskip = {19.85pt},
         pagestyle = plain,
     }
 }
 %- section
 \ctexset {
     section = {
-        format = \linespread{1.0}\zihao{-4}\sffamily\raggedright,
+        format = \linespread{1.0}\zihao{4}\sffamily\raggedright,
         numberformat = \rmfamily,
         aftername = \quad,
-        beforeskip = {24pt},
-        afterskip = {6pt},
+        % beforeskip = {24pt},
+        % afterskip = {6pt},
+        beforeskip = {16pt},
+        afterskip = {8.5pt},
     }
 }
 %- subsection
@@ -674,8 +681,10 @@
         format = \linespread{1.0}\zihao{-4}\sffamily\raggedright,
         numberformat = \rmfamily,
         aftername = \quad,
-        beforeskip = {12pt},
-        afterskip = {6pt},
+        % beforeskip = {12pt},
+        % afterskip = {6pt},
+        beforeskip = {14.5pt},
+        afterskip = {8.5pt},
     }
 }
 %- subsubsection
@@ -684,7 +693,7 @@
         format = \linespread{1.0}\zihao{-4}\sffamily\raggedright,
         numberformat = \rmfamily,
         aftername = \quad,
-        beforeskip = {12pt},
+        beforeskip = {18pt},
         afterskip = {6pt},
     }
 }

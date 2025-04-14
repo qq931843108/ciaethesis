@@ -749,12 +749,20 @@
     %- Deactivate uppercase effect
     \renewcommand{\MakeUppercase}[1]{#1}%
     %- Define different kinds of header and footer for different parts
+    \renewcommand{\headrule}{%
+        \vspace{0pt}% 线上间距调整
+        \hrule width\textwidth height2.25pt % 上粗线
+        \vspace{1.5pt}% 线间距
+        \hrule width\textwidth height0.4pt % 下细线
+        \vspace{0pt}% 线下间距
+    }
     \fancypagestyle{frontmatterstyle}{% style for frontmatter
         \fancyhf{}% clear fields
         \fancyhead[C]{\footnotesize 中国原子能科学研究院博（硕）士学位论文}
         % \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
         \fancyfoot[C]{\footnotesize \thepage}% page number
-        \renewcommand{\headrulewidth}{0.8pt}% header rule
+        % \renewcommand{\headrulewidth}{0.8pt}% header rule
+        \renewcommand{\headrulewidth}{0pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{mainmatterstyle}{% style for mainmatter
@@ -763,7 +771,8 @@
         % \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
         % \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
         \fancyfoot[C]{\footnotesize \thepage}% page number
-        \renewcommand{\headrulewidth}{0.8pt}% header rule
+        % \renewcommand{\headrulewidth}{0.8pt}% header rule
+        \renewcommand{\headrulewidth}{0pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{backmatterstyle}{% header and footer style for backmatter
@@ -772,7 +781,8 @@
         % \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
         % \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
         \fancyfoot[C]{\footnotesize \thepage}% page number
-        \renewcommand{\headrulewidth}{0.8pt}% header rule
+        % \renewcommand{\headrulewidth}{0.8pt}% header rule
+        \renewcommand{\headrulewidth}{0pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     %- Redefine \frontmatter to include the change

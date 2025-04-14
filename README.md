@@ -42,6 +42,22 @@
 - `2024-04-03` 更新图片的\bicaption设置，修复内容超过两行时由居中变为左对齐的问题。
 - `2024-04-03` 更新图片的\bicaption设置，修复Caption中\cite{}引用参考文献时序号错误的问题。
 - `2024-04-05` 更新表格相关package，修改multirow导入逻辑。
+- `2024-04-14` 更新参考文献格式，添加dio；更新页眉与正文间隔线样式；更新section、subsection、subsubsection的字号字体和间距；更新封面部分字体（封面有个性化需求建议word生成后拼接pdf）；更新摘要字号和行间距；考虑美观未按要求使用1.25倍正文行间距，如有需求可修改根目录Thesis.tex中82行的linespread值。
+
+## 如何使用更新
+通用方式：
+1. 页面右边点击：**Code -> Download Zip**
+2. 解压
+3. 将解压出的 Biblio/gbt7714-numerical.bst替换原有目录下的原有同名文件；Style文件夹替换原来同名文件夹；Thesis.tex替换原来同名文件
+4. 正常编译
+
+`2024-04-14`的摘要更新：
+1. 页面右边点击：**Code -> Download Zip**
+2. 解压
+3. 将原 Tex/Frontmatter.tex 中的摘要和关键词内容填入解压出的 Tex/Frontmatter.tex 相应位置
+4. 将解压后填入正确内容的 Tex/Frontmatter.tex 替换原来同名文件
+5. 正常编译
+6. 
 <!-- * `2021-09-27` [benkwoook, issue #359](https://github.com/mohuangrui/ucasthesis/issues/359)，增强 artratex.sty，提供去掉“引言”类章节的章节编号的功能。
 
 * `2021-03-30` 更新原创性声明和使用声明页。移除英文封面声明中的 "the"。

@@ -57,7 +57,6 @@
 3. 将原 Tex/Frontmatter.tex 中的摘要和关键词内容填入解压出的 Tex/Frontmatter.tex 相应位置
 4. 将解压后填入正确内容的 Tex/Frontmatter.tex 替换原来同名文件
 5. 正常编译
-6. 
 <!-- * `2021-09-27` [benkwoook, issue #359](https://github.com/mohuangrui/ucasthesis/issues/359)，增强 artratex.sty，提供去掉“引言”类章节的章节编号的功能。
 
 * `2021-03-30` 更新原创性声明和使用声明页。移除英文封面声明中的 "the"。

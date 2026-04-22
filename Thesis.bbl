@@ -1,0 +1,218 @@
+\begin{thebibliography}{34}
+\providecommand{\biband}{和}
+\providecommand{\bibetal}{等}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Fernbach {\bibetal}(1949)Fernbach, Serber, and Taylor]{fernbach1949scattering}
+Fernbach~S., Serber~R., Taylor~T.
+\newblock The scattering of high energy neutrons by nuclei [J/OL].
+\newblock Physical Review, 1949, 75\penalty0 (9): 1352.
+\newblock DOI: \doi{10.1103/physrev.75.1352}.
+
+\bibitem[Feshbach(1958)]{feshbach1958optical}
+Feshbach~H.
+\newblock The optical model and its justification [J/OL].
+\newblock Annual Review of Nuclear Science, 1958, 8\penalty0 (1): 49-104.
+\newblock DOI: \doi{10.1146/annurev.ns.08.120158.000405}.
+
+\bibitem[Hodgson(1971)]{hodgson1971nuclear}
+Hodgson~P.~E.
+\newblock The nuclear optical model [J/OL].
+\newblock Reports on Progress in Physics, 1971, 34\penalty0 (2): 765-819.
+\newblock DOI: \doi{10.1088/0034-4885/34/3/508}.
+
+\bibitem[Baeza {\bibetal}(1984)Baeza, Bilwes, Bilwes, Diaz, and Ferrero]{baeza1984energy}
+Baeza~A., Bilwes~B., Bilwes~R., et~al.
+\newblock Energy-dependent renormalization coefficients of folding-model description of 32s+ 40ca elastic scattering [J/OL].
+\newblock Nuclear Physics A, 1984, 419\penalty0 (2): 412-428.
+\newblock DOI: \doi{10.1016/0375-9474(84)90401-9}.
+
+\bibitem[Lilley {\bibetal}(1985)Lilley, Fulton, Nagarajan, Thompson, and Banes]{lilley1985evidence}
+Lilley~J., Fulton~B., Nagarajan~M., et~al.
+\newblock Evidence for a progressive failure of the double folding model at energies approaching the coulomb barrier [J/OL].
+\newblock Physics Letters B, 1985, 151\penalty0 (3-4): 181-184.
+\newblock DOI: \doi{10.1016/0370-2693(85)90830-5}.
+
+\bibitem[Nagarajan {\bibetal}(1985)Nagarajan, Mahaux, and Satchler]{nagarajan1985dispersion}
+Nagarajan~M., Mahaux~C., Satchler~G.
+\newblock Dispersion relation and the low-energy behavior of the heavy-ion optical potential [J/OL].
+\newblock Physical review letters, 1985, 54\penalty0 (11): 1136.
+\newblock DOI: \doi{10.1103/physrevlett.54.1136}.
+
+\bibitem[Mahaux {\bibetal}(1986)Mahaux, Ngo, and Satchler]{mahaux1986causality}
+Mahaux~C., Ngo~H., Satchler~G.
+\newblock Causality and the threshold anomaly of the nucleus-nucleus potential [J/OL].
+\newblock Nuclear Physics A, 1986, 449\penalty0 (2): 354-394.
+\newblock DOI: \doi{10.1016/0375-9474(86)90009-6}.
+
+\bibitem[Satchler(1991)]{satchler1991heavy}
+Satchler~G.~R.
+\newblock Heavy-ion scattering and reactions near the coulomb barrier and “threshold anomalies” [J/OL].
+\newblock Physics Reports, 1991, 199\penalty0 (3): 147-190.
+\newblock DOI: \doi{10.1016/0370-1573(91)90066-u}.
+
+\bibitem[Brandan {\bibetal}(1997)Brandan and Satchler]{brandan1997interaction}
+Brandan~M.-E., Satchler~G.~R.
+\newblock The interaction between light heavy-ions and what it tells us [J/OL].
+\newblock Physics reports, 1997, 285\penalty0 (4-5): 143-243.
+\newblock DOI: \doi{10.1016/s0370-1573(96)00048-8}.
+
+\bibitem[Lin {\bibetal}(2001)Lin, Xu, Zhang, Liu, Yang, and Lu]{lin2001threshold}
+Lin~C., Xu~J., Zhang~H., et~al.
+\newblock Threshold anomaly in the 19 f+ 208 pb system [J/OL].
+\newblock Physical Review C, 2001, 63\penalty0 (6): 064606.
+\newblock DOI: \doi{10.1103/physrevc.63.064606}.
+
+\bibitem[Keeley {\bibetal}(1994)Keeley, Bennett, Clarke, Fulton, Tungate, Drumm, Nagarajan, and Lilley]{keeley1994optical}
+Keeley~N., Bennett~S., Clarke~N., et~al.
+\newblock Optical model analyses of 6, 7li+ 208pb elastic scattering near the coulomb barrier [J/OL].
+\newblock Nuclear Physics A, 1994, 571\penalty0 (2): 326-336.
+\newblock DOI: \doi{10.1016/0375-9474(94)90064-7}.
+
+\bibitem[Fulton {\bibetal}(1985)Fulton, Banes, Lilley, Nagarajan, and Thompson]{fulton1985energy}
+Fulton~B., Banes~D., Lilley~J., et~al.
+\newblock Energy dependence of the 16o+ 60ni potential and the optical model dispersion relation [J/OL].
+\newblock Physics Letters B, 1985, 162\penalty0 (1-3): 55-58.
+\newblock DOI: \doi{10.1016/0370-2693(85)91060-3}.
+
+\bibitem[Diaz {\bibetal}(1989)Diaz, Ferrero, Ruiz, Bilwes, and Bilwes]{diaz1989threshold}
+Diaz~J., Ferrero~J., Ruiz~J., et~al.
+\newblock The threshold anomaly in the 32s+ 40ca interaction [J/OL].
+\newblock Nuclear Physics A, 1989, 494\penalty0 (2): 311-333.
+\newblock DOI: \doi{10.1007/bf01108451}.
+
+\bibitem[Becchetti {\bibetal}(1973)Becchetti, Christensen, Manko, and Nickles]{F1973Elastic}
+Becchetti~F., Christensen~P., Manko~V., et~al.
+\newblock Elastic and inelastic scattering of 16o and 12c from a = 40−96 nuclei [J/OL].
+\newblock Nuclear Physics A, 1973.
+\newblock DOI: \doi{10.1016/0375-9474(73)90420-X}.
+
+\bibitem[Hussein {\bibetal}(2006)Hussein, Gomes, Lubian, and Chamon]{hussein2006new}
+Hussein~M.~S., Gomes~P., Lubian~J., et~al.
+\newblock New manifestation of the dispersion relation: Breakup threshold anomaly [J/OL].
+\newblock Physical Review C—Nuclear Physics, 2006, 73\penalty0 (4): 044610.
+\newblock DOI: \doi{10.1103/physrevc.73.044610}.
+
+\bibitem[Keeley {\bibetal}(2007)Keeley, Raabe, Alamanos, and Sida]{keeley2007fusion}
+Keeley~N., Raabe~R., Alamanos~N., et~al.
+\newblock Fusion and direct reactions of halo nuclei at energies around the coulomb barrier [J/OL].
+\newblock Progress in Particle and Nuclear Physics, 2007, 59\penalty0 (2): 579-630.
+\newblock DOI: \doi{10.1016/j.ppnp.2007.02.002}.
+
+\bibitem[Pakou {\bibetal}(2004)Pakou, Alamanos, Doukelis, Gillibert, Kalyva, Kokkoris, Kossionides, Lagoyannis, Musumarra, Papachristodoulou, et~al.]{pakou2004elastic}
+Pakou~A., Alamanos~N., Doukelis~G., et~al.
+\newblock Elastic scattering of li 7+ si 28 at near-barrier energies [J/OL].
+\newblock Physical Review C—Nuclear Physics, 2004, 69\penalty0 (5): 054602.
+\newblock DOI: \doi{10.1103/physrevc.69.057602}.
+
+\bibitem[Biswas {\bibetal}(2008)Biswas, Roy, Sinha, Pradhan, Mukherjee, Basu, Majumdar, Ramachandran, and Shrivastava]{biswas2008study}
+Biswas~M., Roy~S., Sinha~M., et~al.
+\newblock The study of threshold behaviour of effective potential for li6+ ni58, 64 systems [J/OL].
+\newblock Nuclear Physics A, 2008, 802\penalty0 (1-4): 67-81.
+\newblock DOI: \doi{10.1016/j.nuclphysa.2008.01.025}.
+
+\bibitem[Fimiani {\bibetal}(2012)Fimiani, Figueira, Martı́, Testoni, Pacheco, Cárdenas, Arazi, Capurro, Cardona, Carnelli, et~al.]{fimiani2012elastic}
+Fimiani~L., Figueira~J.~M., Martı́~G.~V., et~al.
+\newblock Elastic scattering in the 6, 7 li+ 80 se systems [J/OL].
+\newblock Physical Review C—Nuclear Physics, 2012, 86\penalty0 (4): 044607.
+\newblock DOI: \doi{10.1063/1.3688787}.
+
+\bibitem[Maciel {\bibetal}(1999)Maciel, Gomes, Lubian, Anjos, Cabezas, Santos, Muri, Moraes, Neto, Added, et~al.]{maciel1999influence}
+Maciel~A., Gomes~P., Lubian~J., et~al.
+\newblock Influence of the 6, 7 li breakup process on the near barrier elastic scattering by heavy nuclei [J/OL].
+\newblock Physical Review C, 1999, 59\penalty0 (4): 2103.
+\newblock DOI: \doi{10.1103/physrevc.59.2103}.
+
+\bibitem[Figueira {\bibetal}(2010)Figueira, Niello, Arazi, Capurro, Carnelli, Fimiani, Martı́, Heimann, Negri, Pacheco, et~al.]{figueira2010energy}
+Figueira~J., Niello~J.~F., Arazi~A., et~al.
+\newblock Energy dependence of the optical potential of weakly and tightly bound nuclei as projectiles on a medium-mass target [J/OL].
+\newblock Physical Review C—Nuclear Physics, 2010, 81\penalty0 (2): 024613.
+\newblock DOI: \doi{10.1103/physrevc.81.024613}.
+
+\bibitem[Gomez~Camacho {\bibetal}(2015)Gomez~Camacho, Yu, Zhang, Gomes, Jia, Lubian, and Lin]{gomez2015energy}
+Gomez~Camacho~A., Yu~N., Zhang~H., et~al.
+\newblock Energy dependence of the optical potentials for the be 9+ pb 208 and be 9+ bi 209 systems at near-coulomb-barrier energies [J/OL].
+\newblock Physical Review C, 2015, 91\penalty0 (4): 044610.
+\newblock DOI: \doi{10.1103/physrevc.91.044610}.
+
+\bibitem[黄志杰\ {\bibetal}(2024)黄志杰, 林承键, 杨磊, 贾会明, 马南茹, 温培威, 杨峰, 王丹英, 骆天鹏, 常昶, et~al.]{黄志杰2024近库仑势垒能区}
+黄志杰, 林承键, 杨磊, 等.
+\newblock 近库仑势垒能区 7 Li+ 207 Pb 体系光学势的阈异常现象 [J/OL].
+\newblock 原子能科学技术, 2024, 58\penalty0 (11): 2255-2261.
+\newblock DOI: \doi{10.61369/eptsm.9110}.
+
+\bibitem[Cubero {\bibetal}(2012)Cubero, Fern{\'a}ndez-Garc{\'\i}a, Rodr{\'\i}guez-Gallardo, Acosta, Alcorta, Alvarez, Borge, Buchmann, Diget, Falou, et~al.]{cubero2012halo}
+Cubero~M., Fern{\'a}ndez-Garc{\'\i}a~J., Rodr{\'\i}guez-Gallardo~M., et~al.
+\newblock Do halo nuclei follow rutherford elastic scattering at energies below the barrier?<? format?> the case of li 11 [J/OL].
+\newblock Physical review letters, 2012, 109\penalty0 (26): 262701.
+\newblock DOI: \doi{10.1103/physrevlett.109.262701}.
+
+\bibitem[Yang {\bibetal}(2014)Yang, Lin, Jia, Yang, Wu, Xu, Zhang, Liu, Bao, Sun, et~al.]{yang2014optical}
+Yang~L., Lin~C., Jia~H., et~al.
+\newblock Optical model potentials for the 6 he+ 209 bi reaction from a pb 208 (li 7, he 6) bi 209 reaction analysis [J/OL].
+\newblock Physical Review C, 2014, 89\penalty0 (4): 044615.
+\newblock DOI: \doi{10.1088/0256-307x/31/9/092401}.
+
+\bibitem[Love {\bibetal}(1977)Love, Terasawa, and Satchler]{love1977dynamic}
+Love~W., Terasawa~T., Satchler~G.
+\newblock A dynamic polarization potential for heavy-ion scattering [J/OL].
+\newblock Nuclear Physics A, 1977, 291\penalty0 (1): 183-205.
+\newblock DOI: \doi{10.1016/0375-9474(77)90205-6}.
+
+\bibitem[Thorn {\bibetal}(1977)Thorn, LeVine, Kolata, Flaum, Bond, and Sens]{thorn1977effect}
+Thorn~C., LeVine~M., Kolata~J., et~al.
+\newblock Effect of inelastic excitation on elastic scattering of heavy ions [J/OL].
+\newblock Physical Review Letters, 1977, 38\penalty0 (8): 384.
+\newblock DOI: \doi{10.1103/physrevlett.38.384}.
+
+\bibitem[Talon {\bibetal}(1981)Talon, Alamanos, Lamehi-Rachti, Levi, and Papineau]{talon1981coulomb}
+Talon~P., Alamanos~N., Lamehi-Rachti~M., et~al.
+\newblock Coulomb and nuclear excitation effects on 16o scattering from samarium isotopes [J/OL].
+\newblock Nuclear Physics A, 1981, 359\penalty0 (2): 493-508.
+\newblock DOI: \doi{10.1016/0375-9474(81)90252-9}.
+
+\bibitem[Center()]{nudat}
+Center~N. N.~D.
+\newblock Nudat 3.0 [EB/OL].
+\newblock DOI: \doi{10.61092/iaea.kbnk-50cs}.
+
+\bibitem[Wen {\bibetal}(2022)Wen, Lin, Jia, Yang, Yang, Huang, Luo, Chang, Zhang, and Ma]{wen2022new}
+Wen~P., Lin~C., Jia~H., et~al.
+\newblock New coulomb barrier scaling law with reference to the synthesis of superheavy elements [J/OL].
+\newblock Physical Review C, 2022, 105\penalty0 (3): 034606.
+\newblock DOI: \doi{10.1103/physrevc.105.034606}.
+
+\bibitem[Wang {\bibetal}(2020)Wang, Lin, Yang, Ma, Sun, Yang, Jia, Zhong, and Wen]{wang2020compact}
+Wang~D.-X., Lin~C.-J., Yang~L., et~al.
+\newblock Compact 16-channel integrated charge-sensitive preamplifier module for silicon strip detectors: D.-x. wang et al. [J/OL].
+\newblock Nuclear Science and Techniques, 2020, 31\penalty0 (5): 48.
+\newblock DOI: \doi{10.1007/s41365-020-00755-0}.
+
+\bibitem[Kim(1979)]{kim1979nuclear}
+Kim~B.-T.
+\newblock Nuclear excitation effects on heavy-ion scattering [J/OL].
+\newblock Physics Letters B, 1979, 80\penalty0 (4-5): 353-356.
+\newblock DOI: \doi{10.1016/0370-2693(79)91188-2}.
+
+\bibitem[Raynal(1994)]{raynal1994ecis}
+Raynal~J.
+\newblock Ecis-95. differential equation solution of nuclear model [J/OL].
+\newblock 1994.
+\newblock DOI: \doi{10.1143/ptp/91.1.187}.
+
+\bibitem[林承键(2015)]{lin2015}
+林承键.
+\newblock 重离子核反应 [M].
+\newblock 哈尔滨: 哈尔滨工程大学出版社, 2015.
+
+\end{thebibliography}

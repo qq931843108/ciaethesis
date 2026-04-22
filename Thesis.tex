@@ -43,6 +43,19 @@
 \usepackage{Style/artracom}% user defined commands
 \usepackage{isotope}
 \usepackage{siunitx}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+    basicstyle=\ttfamily\small,    % 等宽字体
+    keywordstyle=\color{blue},     % 关键字颜色
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    numbers=left,                  % 显示行号
+    breaklines=true,               % 自动换行
+    frame=single,                  % 加边框
+    language=Python                  % 设定语言
+}
+
 %---------------------------------------------------------------------------%
 %->> Document inclusion
 %---------------------------------------------------------------------------%
@@ -86,8 +99,8 @@
 %-> Appendix
 %-
 \cleardoublepage%
-\appendix% initialize the environment
-\input{Tex/Appendix}% appendix content
+% \appendix% initialize the environment
+% \input{Tex/Appendix}% appendix content
 %-
 %-> Backmatter: bibliography, glossary, index
 %-

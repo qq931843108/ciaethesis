@@ -186,6 +186,8 @@
 \renewcommand{\author}[1]{\def\ucas@value@ch@author{#1}}
 \def\ucas@value@ch@advisor{}
 \newcommand{\advisor}[1]{\long\def\ucas@value@ch@advisor{#1}}
+\def\ucas@value@ch@advisorB{}
+\newcommand{\advisorB}[1]{\long\def\ucas@value@ch@advisorB{#1}}
 \def\ucas@value@ch@advisors{}
 \newcommand{\advisors}[1]{\long\def\ucas@value@ch@advisors{#1}}
 \def\ucas@value@ch@degree{}
@@ -331,7 +333,7 @@
         \def\tabcolsep{1pt}
         \begin{tabular}{lc}
             \ucas@label@ch@advisor & \ulenhance[1.2pt]{\ulextend[23.4em]{\makebox[4.0em]{}\ucas@value@ch@advisor}}\\
-             & \ulenhance[1.2pt]{\ulextend[23.4em]{}}
+            & \ulenhance[1.2pt]{\ulextend[23.4em]{\makebox[4.0em]{}\ucas@value@ch@advisorB}}
         \end{tabular}
         \begin{tabular}{lclc}
             \ucas@label@ch@degree & \ulenhance[1.2pt]{\ulextend[8.6em]{\makebox[4.0em]{}\ucas@value@ch@degreetype\ucas@value@ch@degree}} & \ucas@label@ch@major & \ulenhance[1.2pt]{\ulextend[10.6em]{\makebox[4.0em]{}\ucas@value@ch@major}}\\
